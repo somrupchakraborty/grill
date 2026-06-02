@@ -61,7 +61,9 @@ The user keeps a workspace (typically an Obsidian vault). Default paths live in 
    - Enough to judge → conclude.
    One question per turn, always.
 5. **Converge to a terminal state** (below). Tell the user the verdict and exactly what you wrote where.
-6. Then either advance to the next bullet or stop, per the user's command.
+6. Decide next action based on verdict:
+   - **`strong`** → ask the user to advance to the next bullet or stop.
+   - **`weak`** or **`cut`** → tell the user they can run the companion `strengthen` skill (collaborative reframing pass; same workspace) to find a defensible version of the same work without inflation — invoke with `/strengthen` or just say "strengthen this story." Then ask: strengthen, advance to next bullet, or stop?
 
 ### Terminal states
 
