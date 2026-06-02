@@ -139,7 +139,7 @@ To add a new behavioral rubric (e.g. a Bain-specific one), drop a new file in `g
 
 ## License
 
-No license file is set yet — pick one before pushing publicly if you want others to reuse it.
+MIT — see [LICENSE](LICENSE). Free to use, modify, and redistribute with attribution.
 
 ## Credits
 
