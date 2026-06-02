@@ -1,0 +1,22 @@
+# Personal workspace files — never commit these.
+# If you instantiate the templates here (e.g. `cp templates/*.md .`),
+# these patterns keep your real resume / job / story data out of git.
+/resume.md
+/jobs.md
+/story.md
+/drained-log.md
+/resume-hardened.md
+/orchestrator.md
+
+# Obsidian / editor / OS
+.obsidian/
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Claude Code local state (don't commit session or project state)
+.claude/projects/
+.claude/sessions/
+.claude/settings.local.json
+.claude/session-env/
