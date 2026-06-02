@@ -2,10 +2,11 @@
 
 An adversarial behavioral-interview skill for Claude Code. Stress-tests resume bullets one question at a time until you and the model converge on the defensible version of the work you actually did.
 
-Two archetypes ship with it:
+Three archetypes ship with it:
 
 - **Amazon Leadership Principles** — STAR with bar-raiser "Dive Deep" chains.
 - **McKinsey PEI** — Personal Impact, Entrepreneurial Drive, Leadership; one story, ~10 minutes deep.
+- **Technical PM** — Technical Credibility, Data Literacy & Metrics, Managing Trade-offs, Cross-functional Collaboration; no-code technical behavioral for Meta / Stripe / Google PM-T / FAANG technical-PM loops.
 
 The skill never invents metrics, never coaches inflation, and treats `we` as a flag to probe. A `weak` or `cut` verdict is the skill working, not failing.
 
