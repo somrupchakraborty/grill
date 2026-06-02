@@ -1,5 +1,9 @@
 # grill + strengthen
 
+<p align="center">
+  <img src="assets/cartoon.svg" width="640" alt="Cartoon: a stern interviewer asks 'What did YOU personally do?' while a panicked candidate sweats over a resume that is literally on a BBQ grill, with a thought bubble reading '...we...?'">
+</p>
+
 A two-skill behavioral-interview toolkit for Claude Code.
 
 - **`grill`** is the adversarial pass. It stress-tests resume bullets one question at a time until you and the model converge on the defensible version of the work you actually did.

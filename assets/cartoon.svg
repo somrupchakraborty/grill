@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+  <!-- Cream background -->
+  <rect width="800" height="420" fill="#fef3c7"/>
+
+  <!-- Title -->
+  <text x="400" y="42" text-anchor="middle" font-size="26" font-weight="bold" fill="#7c2d12">grill + strengthen your resume</text>
+  <text x="400" y="64" text-anchor="middle" font-size="13" fill="#92400e" font-style="italic">a behavioral interview toolkit for Claude Code</text>
+
+  <!-- INTERVIEWER (left) -->
+  <g transform="translate(140, 200)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="32" fill="#fef3c7" stroke="#1f2937" stroke-width="3"/>
+    <!-- Furrowed brows (angled) -->
+    <line x1="-18" y1="-12" x2="-6" y2="-6" stroke="#1f2937" stroke-width="3" stroke-linecap="round"/>
+    <line x1="18" y1="-12" x2="6" y2="-6" stroke="#1f2937" stroke-width="3" stroke-linecap="round"/>
+    <!-- Eyes -->
+    <circle cx="-9" cy="-3" r="2" fill="#1f2937"/>
+    <circle cx="9" cy="-3" r="2" fill="#1f2937"/>
+    <!-- Stern frown -->
+    <path d="M -12 14 Q 0 8, 12 14" fill="none" stroke="#1f2937" stroke-width="3" stroke-linecap="round"/>
+    <!-- Body -->
+    <line x1="0" y1="32" x2="0" y2="110" stroke="#1f2937" stroke-width="3"/>
+    <!-- Arms crossed -->
+    <line x1="0" y1="55" x2="35" y2="75" stroke="#1f2937" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="55" x2="-35" y2="75" stroke="#1f2937" stroke-width="3" stroke-linecap="round"/>
+    <line x1="35" y1="75" x2="-35" y2="75" stroke="#1f2937" stroke-width="3" stroke-linecap="round"/>
+    <!-- Legs -->
+    <line x1="0" y1="110" x2="-22" y2="155" stroke="#1f2937" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="110" x2="22" y2="155" stroke="#1f2937" stroke-width="3" stroke-linecap="round"/>
+    <!-- Label -->
+    <text x="0" y="180" text-anchor="middle" font-size="12" fill="#7c2d12" font-weight="bold" letter-spacing="2">INTERVIEWER</text>
+  </g>
+
+  <!-- INTERVIEWER speech bubble -->
+  <g transform="translate(220, 110)">
+    <rect x="0" y="0" width="200" height="62" rx="12" fill="white" stroke="#1f2937" stroke-width="2"/>
+    <polygon points="30,62 25,80 50,62" fill="white" stroke="#1f2937" stroke-width="2"/>
+    <polygon points="32,63 27,78 48,63" fill="white"/>
+    <text x="100" y="28" text-anchor="middle" font-size="13" font-weight="bold" fill="#1f2937">"What did YOU</text>
+    <text x="100" y="48" text-anchor="middle" font-size="13" font-weight="bold" fill="#1f2937">personally do?"</text>
+  </g>
+
+  <!-- GRILL in the middle -->
+  <g transform="translate(400, 290)">
+    <!-- Legs -->
+    <line x1="-55" y1="5" x2="-65" y2="55" stroke="#1f2937" stroke-width="3" stroke-linecap="round"/>
+    <line x1="55" y1="5" x2="65" y2="55" stroke="#1f2937" stroke-width="3" stroke-linecap="round"/>
+    <!-- Flames behind/around paper -->
+    <path d="M -45 -5 Q -50 -35, -38 -28 Q -33 -45, -28 -28 Q -22 -38, -28 -5 Z" fill="#f97316"/>
+    <path d="M -42 -8 Q -45 -28, -36 -22 Q -32 -36, -28 -22 Q -24 -30, -28 -8 Z" fill="#fbbf24"/>
+    <path d="M -8 -10 Q -14 -50, -2 -38 Q 4 -55, 10 -38 Q 16 -48, 10 -10 Z" fill="#f97316"/>
+    <path d="M -5 -12 Q -10 -42, 0 -32 Q 5 -48, 8 -32 Q 12 -40, 8 -12 Z" fill="#fbbf24"/>
+    <path d="M 30 -5 Q 25 -30, 36 -22 Q 42 -42, 46 -22 Q 52 -32, 46 -5 Z" fill="#f97316"/>
+    <path d="M 32 -8 Q 28 -25, 36 -18 Q 40 -34, 44 -18 Q 48 -27, 44 -8 Z" fill="#fbbf24"/>
+    <!-- Grill body (rounded) -->
+    <ellipse cx="0" cy="0" rx="70" ry="12" fill="#1f2937"/>
+    <rect x="-70" y="0" width="140" height="14" fill="#1f2937"/>
+    <!-- Grill grates -->
+    <line x1="-60" y1="-2" x2="60" y2="-2" stroke="#6b7280" stroke-width="1"/>
+    <line x1="-60" y1="2" x2="60" y2="2" stroke="#6b7280" stroke-width="1"/>
+    <!-- RESUME paper on top, slightly tilted -->
+    <g transform="rotate(-4) translate(-25, -28)">
+      <rect x="0" y="0" width="55" height="35" fill="white" stroke="#1f2937" stroke-width="2"/>
+      <text x="27" y="11" text-anchor="middle" font-size="7" font-weight="bold" fill="#1f2937">RESUME</text>
+      <line x1="5" y1="17" x2="50" y2="17" stroke="#9ca3af" stroke-width="0.8"/>
+      <line x1="5" y1="22" x2="48" y2="22" stroke="#9ca3af" stroke-width="0.8"/>
+      <line x1="5" y1="27" x2="50" y2="27" stroke="#9ca3af" stroke-width="0.8"/>
+      <!-- Sweat drops on resume -->
+      <ellipse cx="6" cy="-5" rx="2.5" ry="4" fill="#3b82f6"/>
+      <ellipse cx="48" cy="-7" rx="2.5" ry="4" fill="#3b82f6"/>
+    </g>
+  </g>
+
+  <!-- CANDIDATE (right) -->
+  <g transform="translate(660, 200)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="32" fill="#fef3c7" stroke="#1f2937" stroke-width="3"/>
+    <!-- Wide nervous eyes -->
+    <circle cx="-10" cy="-5" r="5" fill="white" stroke="#1f2937" stroke-width="1.5"/>
+    <circle cx="10" cy="-5" r="5" fill="white" stroke="#1f2937" stroke-width="1.5"/>
+    <circle cx="-10" cy="-5" r="2" fill="#1f2937"/>
+    <circle cx="10" cy="-5" r="2" fill="#1f2937"/>
+    <!-- Worried brow -->
+    <line x1="-18" y1="-15" x2="-4" y2="-12" stroke="#1f2937" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="18" y1="-15" x2="4" y2="-12" stroke="#1f2937" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Open mouth (oh no) -->
+    <ellipse cx="0" cy="14" rx="5" ry="7" fill="#1f2937"/>
+    <!-- Sweat drops -->
+    <ellipse cx="-34" cy="-12" rx="3" ry="6" fill="#3b82f6"/>
+    <ellipse cx="34" cy="-15" rx="3" ry="6" fill="#3b82f6"/>
+    <!-- Body -->
+    <line x1="0" y1="32" x2="0" y2="110" stroke="#1f2937" stroke-width="3"/>
+    <!-- Arms up in panic -->
+    <line x1="0" y1="50" x2="-30" y2="25" stroke="#1f2937" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="50" x2="30" y2="25" stroke="#1f2937" stroke-width="3" stroke-linecap="round"/>
+    <!-- Tiny hands -->
+    <circle cx="-30" cy="25" r="4" fill="#fef3c7" stroke="#1f2937" stroke-width="2"/>
+    <circle cx="30" cy="25" r="4" fill="#fef3c7" stroke="#1f2937" stroke-width="2"/>
+    <!-- Legs (wobbly) -->
+    <line x1="0" y1="110" x2="-22" y2="155" stroke="#1f2937" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="110" x2="22" y2="155" stroke="#1f2937" stroke-width="3" stroke-linecap="round"/>
+    <!-- Label -->
+    <text x="0" y="180" text-anchor="middle" font-size="12" fill="#7c2d12" font-weight="bold" letter-spacing="2">CANDIDATE</text>
+  </g>
+
+  <!-- CANDIDATE thought bubble -->
+  <g transform="translate(500, 90)">
+    <!-- Small bubbles trailing up -->
+    <circle cx="40" cy="80" r="3" fill="white" stroke="#1f2937" stroke-width="1.5"/>
+    <circle cx="50" cy="73" r="5" fill="white" stroke="#1f2937" stroke-width="1.5"/>
+    <!-- Main thought bubble (cloud-like) -->
+    <ellipse cx="80" cy="40" rx="78" ry="32" fill="white" stroke="#1f2937" stroke-width="2"/>
+    <text x="80" y="35" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2937">…we…?</text>
+    <text x="80" y="56" text-anchor="middle" font-size="10" fill="#6b7280" font-style="italic">(uh oh)</text>
+  </g>
+
+  <!-- Footer hint -->
+  <text x="400" y="405" text-anchor="middle" font-size="11" fill="#92400e">github.com/somrupchakraborty/grill-and-strengthen-your-resume</text>
+</svg>
